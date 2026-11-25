@@ -1,0 +1,8 @@
+{
+  "name": "Simply Plattered — Festive Platters Demo",
+  "description": "Database-free client demonstration of the Simply Plattered South African festive platter storefront, online ordering workflow, local Demo Admin dashboard, and client-side PDF generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

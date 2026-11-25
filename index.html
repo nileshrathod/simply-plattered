@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Plattered — Festive Platters &amp; Catering Demo</title>
+    <meta
+      name="description"
+      content="Freshly Prepared with Care, Perfect for Sharing. Explore Simply Plattered festive platters, submit a local demo order, download PDF confirmations, and test the Demo Admin dashboard."
+    />
+    <meta property="og:title" content="Simply Plattered — Festive Platters &amp; Catering Demo" />
+    <meta
+      property="og:description"
+      content="Freshly Prepared with Care, Perfect for Sharing. South African festive platters with 48-hour advance notice, 50% deposit calculation, and local demo ordering."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('simply_plattered_theme_v1');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAFAF8] dark:bg-[#111110] text-[#1C1917] dark:text-[#F5F4F0] antialiased selection:bg-[#164E37]/15 dark:selection:bg-[#5ED09E]/20 selection:text-[#164E37] dark:selection:text-[#5ED09E]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
